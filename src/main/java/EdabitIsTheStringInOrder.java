@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.stream.Collectors;
 
 public class EdabitIsTheStringInOrder {
     public static void main(String[] args) {
@@ -11,10 +12,6 @@ public class EdabitIsTheStringInOrder {
         System.out.println(charArray);
         String str2 = String.valueOf(charArray);
         System.out.println(str + " " + str2);
-        if (str2.equals(str)) {
-            return true;
-        } else {
-            return false;
-        }
+        return str2.equals(str);
     }
 }
