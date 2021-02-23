@@ -1,2 +1,8 @@
-JavaStreams.java
- JavaStreams
+JavaStreams2.java
+ JavaStreams2
+JavaStreams1.java
+ JavaStreams1
+EdabitIsTheStringInOrderStreamVersion.java
+ EdabitIsTheStringInOrderStreamVersion
+EdabitIsTheStringInOrder.java
+ EdabitIsTheStringInOrder
