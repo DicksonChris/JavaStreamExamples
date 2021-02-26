@@ -1,8 +1,16 @@
-JavaStreams2.java
- JavaStreams2
-JavaStreams1.java
- JavaStreams1
 EdabitIsTheStringInOrderStreamVersion.java
  EdabitIsTheStringInOrderStreamVersion
 EdabitIsTheStringInOrder.java
  EdabitIsTheStringInOrder
+JavaStreams2.java
+ JavaStreams2
+EdabitRoundingInMillionsStream.java
+ EdabitRoundingInMillionsStream
+EdabitRoundingInMillions.java
+ EdabitRoundingInMillions
+JavaStreams1.java
+ JavaStreams1
+TasteOfLambdasGetAddictedToStreams.java
+ TasteOfLambdasGetAddictedToStreams
+GetAddictedToStreams.java
+ GetAddictedToStreams
