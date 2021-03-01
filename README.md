@@ -515,7 +515,7 @@ Stream.iterate(k, e -> e + 1)// unbounded, lazy
 	  .limit(n) // sized, lazy
 	  .sum();
 ```
-Note: Any function that returns a stream from a stream then it is **lazy**. 
+Note: Any function that returns a stream from a stream is **lazy**. 
 
 In the exampe above .sum() does **eager evaluation**.
 
