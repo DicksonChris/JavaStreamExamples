@@ -1,6 +1,8 @@
+package edabit.stream;
+
 import java.util.stream.IntStream;
 
-public class EdabitRoundingInMillionsStream {
+public class EdabitRoundingInMillions {
     public static void main(String[] args) {
         Object[] arr = new Object[]{
                 new Object[]{"Nice", 942208},
@@ -12,12 +14,11 @@ public class EdabitRoundingInMillionsStream {
     }
 
     public static Object[] millionsRounding(Object[] cities) {
-        // for loop is probably preferable for clarity and possibly speed
-        IntStream.range(0, cities.length).forEach(i -> {
+        for (int i = 0; i < cities.length; i++) {
             Object[] city = (Object[]) cities[i];
-            city[1] = (int) city[1] < 5e5 ? 0 : roundToNearestMillion(city[1]);
+            city[1] = ((int) city[1] < 5e5) ? 0 : roundToNearestMillion(city[1]);
             cities[i] = new Object[]{city[0], city[1]};
-        });
+        }
         return cities;
     }
 
